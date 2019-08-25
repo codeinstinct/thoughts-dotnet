@@ -11,7 +11,7 @@ Here are some thoughts on how to make dotnet toolchain more user friendly on dif
   -  installing the right SDK, or
   -  installing the right IDE's (vscode and/or addons, unity, xamarin).
   
-- After this installation, the DFCE also runs through a diagnostic flow to ensure that the user will actually be able to perform those intents on this setup. This is where the [Dotnet Doctor](#dotnet-doctor) tool comes in.
+- After this installation, the DFCE also runs through a diagnostic flow to ensure that the user will actually be able to perform those intents on this setup. This is where the [Dotnet Doctor](#dotnet-doctor-dd) tool comes in.
 
 - Responsibilities of DFCE
   - Collect user intent
