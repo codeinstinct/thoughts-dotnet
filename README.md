@@ -41,16 +41,16 @@ The reason to have the [DFCE](#dotnet-first-contact-executable-dfce) and [DD](#d
 - to be assured that the right bits are present on the system. 
 - to catch installation errors early on and not when developers start working on the application they want to build.
   - For example, building a wpf project is not supported on ubuntu as of today.
-- Know right away whether a particular [setup configuration](#setup-configuration) can help achieve the intent of the user. If not, what steps they could be taken.
-- Adding deterministic flow to configuration reduces anxiety of whether a configuration will work or not, on not just our machines, but also in docker, or in cloud VPS/VMs or iot devices and wherever dotnet can reach. Also addressing the "I don't want to mess with this machine" problem.
-- Ability to export a certain configuration in a json file (configuration.json, for example) and replicate the exact setup on a remote machine with simply the configuration.json and the DFCE.
+- Know right away whether a particular [setup configuration](#setup-configuration) can help achieve the intent of the user. If not, what steps could be taken.
+- Adding deterministic flow to configuration reduces anxiety of whether a configuration will work or not, on not just our machines, but also in docker, or in cloud VPS/VMs or iot devices and wherever dotnet can reach - also addresses the "I don't want to mess with this machine" problem.
+- Ability to export configuration (configuration.json, for example) and replicate the exact setup on a remote machine with simply the configuration.json and the DFCE.
 
 # Glossary
 
 ## User
 - An application consumer or application developer
 
-### Intents
+## Intents
 - End-User intents
   - Install a particular runtime for a particular application.
     - We don't want the user to be concerned with which package manager is being used.
